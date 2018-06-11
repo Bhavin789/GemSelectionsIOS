@@ -1672,11 +1672,17 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nk-7W-tyz">
                                                                         <rect key="frame" x="0.0" y="0.0" width="113" height="21.5"/>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                                        <state key="normal" title="DAILY">
+                                                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        </state>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5v-SV-dED">
                                                                         <rect key="frame" x="0.0" y="23.5" width="113" height="21.5"/>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                                        <state key="normal" title="HORORSCOPE">
+                                                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        </state>
                                                                     </button>
                                                                 </subviews>
                                                                 <constraints>
@@ -1703,34 +1709,36 @@
                                                                     <constraint firstAttribute="width" secondItem="UNg-nf-BcE" secondAttribute="height" multiplier="103:109" id="ghf-85-fyM"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="rtF-Nr-d61">
-                                                                <rect key="frame" x="8" y="42" width="113" height="41"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="3zA-FQ-9ZH">
+                                                                <rect key="frame" x="8" y="40" width="113" height="45"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INDIAN" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5g-iN-UFp">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="113" height="19.5"/>
-                                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASTROLOGY" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCd-Os-v5f">
-                                                                        <rect key="frame" x="0.0" y="21.5" width="113" height="19.5"/>
-                                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDj-w5-L9c">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="113" height="21.5"/>
+                                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                                        <state key="normal" title="INDIAN">
+                                                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        </state>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVU-ba-Qab">
+                                                                        <rect key="frame" x="0.0" y="23.5" width="113" height="21.5"/>
+                                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                                        <state key="normal" title="ASTROLOGY">
+                                                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        </state>
+                                                                    </button>
                                                                 </subviews>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="41" id="StR-id-btX"/>
+                                                                    <constraint firstAttribute="height" constant="45" id="UJT-MI-uVE"/>
                                                                 </constraints>
                                                             </stackView>
                                                         </subviews>
                                                         <color key="backgroundColor" red="1" green="0.86019287519999998" blue="0.49497966310000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
-                                                            <constraint firstItem="rtF-Nr-d61" firstAttribute="centerY" secondItem="UNg-nf-BcE" secondAttribute="centerY" id="Fmt-cx-eJR"/>
-                                                            <constraint firstItem="UNg-nf-BcE" firstAttribute="leading" secondItem="rtF-Nr-d61" secondAttribute="trailing" constant="8" id="KSW-P5-gyi"/>
+                                                            <constraint firstItem="3zA-FQ-9ZH" firstAttribute="leading" secondItem="ncD-XO-k1g" secondAttribute="leading" constant="8" id="5d4-y1-kqp"/>
+                                                            <constraint firstItem="3zA-FQ-9ZH" firstAttribute="centerY" secondItem="UNg-nf-BcE" secondAttribute="centerY" id="5nd-nV-dIa"/>
+                                                            <constraint firstItem="UNg-nf-BcE" firstAttribute="leading" secondItem="3zA-FQ-9ZH" secondAttribute="trailing" constant="8" id="FLa-cC-pqD"/>
                                                             <constraint firstAttribute="bottom" secondItem="UNg-nf-BcE" secondAttribute="bottom" constant="8" id="SPM-tz-Voa"/>
                                                             <constraint firstItem="UNg-nf-BcE" firstAttribute="top" secondItem="ncD-XO-k1g" secondAttribute="top" constant="8" id="Xsg-NF-Y0S"/>
-                                                            <constraint firstItem="rtF-Nr-d61" firstAttribute="leading" secondItem="ncD-XO-k1g" secondAttribute="leading" constant="8" id="ZzG-aZ-9zM"/>
                                                             <constraint firstAttribute="trailing" secondItem="UNg-nf-BcE" secondAttribute="trailing" constant="8" id="tld-eB-Uf6"/>
                                                         </constraints>
                                                     </view>
