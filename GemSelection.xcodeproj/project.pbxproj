@@ -52,6 +52,7 @@
 		9ECE7629DEBBECF14EBCB29C /* Pods_GemSelection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B6B50811E25A6DA7F3BFA3 /* Pods_GemSelection.framework */; };
 		F125227D20CAD52900D2C25B /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = F125227C20CAD52900D2C25B /* test.m */; };
 		F12E278820BD53910000E82C /* SectionHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E278720BD53910000E82C /* SectionHeaderCollectionReusableView.swift */; };
+		F14FF34820CEDE7F001A8C7A /* AstrologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FF34720CEDE7D001A8C7A /* AstrologyViewController.swift */; };
 		F1548F4020CA8ABF0082602D /* PearlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1548F3F20CA8ABF0082602D /* PearlViewController.swift */; };
 		F1548F4220CA8B100082602D /* SapphireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1548F4120CA8B100082602D /* SapphireViewController.swift */; };
 		F1548F4420CA8B550082602D /* KeepInMindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1548F4320CA8B550082602D /* KeepInMindViewController.swift */; };
@@ -117,6 +118,7 @@
 		F125227C20CAD52900D2C25B /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		F125227E20CAF37000D2C25B /* GemSelection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GemSelection.entitlements; sourceTree = "<group>"; };
 		F12E278720BD53910000E82C /* SectionHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		F14FF34720CEDE7D001A8C7A /* AstrologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyViewController.swift; sourceTree = "<group>"; };
 		F1548F3F20CA8ABF0082602D /* PearlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlViewController.swift; sourceTree = "<group>"; };
 		F1548F4120CA8B100082602D /* SapphireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapphireViewController.swift; sourceTree = "<group>"; };
 		F1548F4320CA8B550082602D /* KeepInMindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepInMindViewController.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				464FBFE01FAD09EA005CC980 /* GemSelectionapp-Bridging-Header.h */,
 				4600F4DB1FAD037F000954D3 /* GoogleService-Info.plist */,
 				4668A4001F9FE63100CB64A7 /* Info.plist */,
+				F14FF34720CEDE7D001A8C7A /* AstrologyViewController.swift */,
 			);
 			path = GemSelection;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				00176EBB20123785009E92B8 /* JwelleryMain.swift in Sources */,
 				00176ECD201394A2009E92B8 /* RudrakshaPopupView.swift in Sources */,
 				F1548F4820CA8B890082602D /* WhereToBuyViewController.swift in Sources */,
+				F14FF34820CEDE7F001A8C7A /* AstrologyViewController.swift in Sources */,
 				00C86E9D200BE1AE0060E04E /* TriangleGemstones.swift in Sources */,
 				00F85A0D201883C800796A8B /* SemiPreciousGemsData.swift in Sources */,
 				F15C797420C84D36009ACFA3 /* HowGemsStonesWorksViewController.swift in Sources */,
