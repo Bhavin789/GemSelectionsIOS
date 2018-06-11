@@ -10,6 +10,14 @@ import UIKit
 
 class AstrologyViewController: UIViewController {
 
+    @IBOutlet weak var matchButton: UIButton!
+    @IBOutlet weak var makingButton: UIButton!
+    @IBOutlet weak var westernButton: UIButton!
+    @IBOutlet weak var astroButtonMatch: UIButton!
+    @IBOutlet weak var dailyButton: UIButton!
+    @IBOutlet weak var hororscopeButton: UIButton!
+    @IBOutlet weak var indianButton: UIButton!
+    @IBOutlet weak var astroButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 

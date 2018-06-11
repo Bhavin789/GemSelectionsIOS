@@ -1557,10 +1557,10 @@
             </objects>
             <point key="canvasLocation" x="4202.3999999999996" y="2817.8410794602701"/>
         </scene>
-        <!--View Controller-->
+        <!--Astrology View Controller-->
         <scene sceneID="sBh-Ne-EuW">
             <objects>
-                <viewController id="EI9-ts-Lil" sceneMemberID="viewController">
+                <viewController id="EI9-ts-Lil" customClass="AstrologyViewController" customModule="GemSelection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ce7-ei-ajJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1774,6 +1774,16 @@
                         <viewLayoutGuide key="safeArea" id="VZ0-5I-19z"/>
                     </view>
                     <size key="freeformSize" width="320" height="700"/>
+                    <connections>
+                        <outlet property="astroButton" destination="JVU-ba-Qab" id="5W9-xT-8U7"/>
+                        <outlet property="astroButtonMatch" destination="dSe-kW-D6v" id="OfH-fx-Zst"/>
+                        <outlet property="dailyButton" destination="6nk-7W-tyz" id="kZT-fx-P26"/>
+                        <outlet property="hororscopeButton" destination="C5v-SV-dED" id="pDT-MN-ZF2"/>
+                        <outlet property="indianButton" destination="kDj-w5-L9c" id="xT4-cq-ltP"/>
+                        <outlet property="makingButton" destination="0rw-Iq-yAR" id="9qg-xl-W6w"/>
+                        <outlet property="matchButton" destination="5BK-ie-RON" id="1pn-eT-HOt"/>
+                        <outlet property="westernButton" destination="Jcc-8d-FbO" id="RkQ-BH-ClN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7tS-aI-g0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
