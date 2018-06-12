@@ -36,6 +36,7 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
         signupBtn.setTitleColor(UIColor.gray, for: .normal)
         self.view.addSubview(signInView)
         googleButton.addTarget(self, action: #selector(handleGoogleSignin), for: .touchUpInside)
+        googleButton.layer.cornerRadius = 5
         facebookButton.addTarget(self, action: #selector(handleFacebook), for: .touchUpInside)
     }
     

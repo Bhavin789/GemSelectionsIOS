@@ -430,7 +430,7 @@
                                                 <constraint firstAttribute="height" constant="21" id="Haz-xk-W62"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="u03-Lz-zoz">
@@ -456,7 +456,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(A Unit of Khanna Gems Pvt. Limited)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFe-GU-5rq">
                                             <rect key="frame" x="16" y="160" width="255.5" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -1788,7 +1788,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7tS-aI-g0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5025" y="3166.9014084507044"/>
+            <point key="canvasLocation" x="5070" y="3167"/>
         </scene>
         <!--Astrology Menu Table View Controller-->
         <scene sceneID="wJp-ZK-O8R">
@@ -4815,9 +4815,10 @@ Then to recharge it take it off one week before Mahashivratri day and follow the
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Do5-zA-B9E">
                                         <rect key="frame" x="0.0" y="0.0" width="107.5" height="42"/>
+                                        <color key="backgroundColor" red="1" green="0.86019287519999998" blue="0.49497966310000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <state key="normal" title="LOGIN">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="signInAction:" destination="GIl-Qh-6gq" eventType="touchUpInside" id="Zzf-MZ-zMg"/>
@@ -4825,9 +4826,10 @@ Then to recharge it take it off one week before Mahashivratri day and follow the
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yy5-Hq-O9W">
                                         <rect key="frame" x="180.5" y="0.0" width="107.5" height="42"/>
+                                        <color key="backgroundColor" red="1" green="0.86019287519999998" blue="0.49497966310000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <state key="normal" title="SIGN UP">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="signUpButton:" destination="GIl-Qh-6gq" eventType="touchUpInside" id="zsv-RP-W5w"/>
@@ -8521,7 +8523,7 @@ Gem Selections, ( Unit of Khanna Gems Private Limited ), Shop No.8, A-3 DDA Mark
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Cfs-kv-ksW"/>
-        <segue reference="Rq6-zf-TF3"/>
+        <segue reference="190-fL-RNG"/>
         <segue reference="30A-gL-4es"/>
         <segue reference="OG9-Eb-79K"/>
         <segue reference="edC-m0-78k"/>
