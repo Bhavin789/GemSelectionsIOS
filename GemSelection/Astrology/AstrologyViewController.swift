@@ -18,6 +18,7 @@ class AstrologyViewController: UIViewController {
     @IBOutlet weak var hororscopeButton: UIButton!
     @IBOutlet weak var indianButton: UIButton!
     @IBOutlet weak var astroButton: UIButton!
+    @IBOutlet weak var matchMakingView: UIView!
     
     var matchMaking: [String]?
     var westernAstro: [String]?
@@ -34,6 +35,9 @@ class AstrologyViewController: UIViewController {
         
         indianAstro = ["General House Report", "General Ascendant Report", "General Planet Nature Report", "General Moon BioRythm Report", "Moon Horoscope Report Chart", "Kal Sarpa Details", "Basic Astrology Report", "Basic Astrology Details", "Basic Astrology Planets", "Madhya Bhav", "Ayanmsha", "Major Char Dasha", "Curren Char Dasha", "Sub Char Dasha", "Sub Sub Char Dasha", "Gemstone Suggestion", "Basic Panchang", "Planet Panchang", "Yogini Dasha", "Numerology Report", "Numerology Favourable Time", "Numerology Place Vastu", "Numerology Daily Prediction"]
         
+        matchMakingView.layer.cornerRadius = 8
+        //westernView.translatesAutoresizingMaskIntoConstraints = false
+        //westernView.layer.cornerRadius = 5 
         // Do any additional setup after loading the view.
     }
 
