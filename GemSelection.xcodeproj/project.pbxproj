@@ -50,6 +50,7 @@
 		4668A3FC1F9FE63100CB64A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4668A3FB1F9FE63100CB64A7 /* Assets.xcassets */; };
 		4668A3FF1F9FE63100CB64A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4668A3FD1F9FE63100CB64A7 /* LaunchScreen.storyboard */; };
 		9ECE7629DEBBECF14EBCB29C /* Pods_GemSelection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B6B50811E25A6DA7F3BFA3 /* Pods_GemSelection.framework */; };
+		F1249A6B20D00936002C3BE6 /* AstrologyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1249A6A20D00936002C3BE6 /* AstrologyMenuTableViewController.swift */; };
 		F125227D20CAD52900D2C25B /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = F125227C20CAD52900D2C25B /* test.m */; };
 		F12E278820BD53910000E82C /* SectionHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E278720BD53910000E82C /* SectionHeaderCollectionReusableView.swift */; };
 		F14FF34820CEDE7F001A8C7A /* AstrologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FF34720CEDE7D001A8C7A /* AstrologyViewController.swift */; };
@@ -115,6 +116,7 @@
 		4668A3FE1F9FE63100CB64A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4668A4001F9FE63100CB64A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929E9134C2D0791ABF2605B6 /* Pods-GemSelection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GemSelection.release.xcconfig"; path = "Pods/Target Support Files/Pods-GemSelection/Pods-GemSelection.release.xcconfig"; sourceTree = "<group>"; };
+		F1249A6A20D00936002C3BE6 /* AstrologyMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyMenuTableViewController.swift; sourceTree = "<group>"; };
 		F125227C20CAD52900D2C25B /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		F125227E20CAF37000D2C25B /* GemSelection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GemSelection.entitlements; sourceTree = "<group>"; };
 		F12E278720BD53910000E82C /* SectionHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 		4668A3F31F9FE63100CB64A7 /* GemSelection */ = {
 			isa = PBXGroup;
 			children = (
+				F1249A6920D0090A002C3BE6 /* Astrology */,
 				F125227E20CAF37000D2C25B /* GemSelection.entitlements */,
 				F15C797020C84C45009ACFA3 /* FAQScreens */,
 				0037B19F200FA40E003697BA /* HOME */,
@@ -256,7 +259,6 @@
 				464FBFE01FAD09EA005CC980 /* GemSelectionapp-Bridging-Header.h */,
 				4600F4DB1FAD037F000954D3 /* GoogleService-Info.plist */,
 				4668A4001F9FE63100CB64A7 /* Info.plist */,
-				F14FF34720CEDE7D001A8C7A /* AstrologyViewController.swift */,
 			);
 			path = GemSelection;
 			sourceTree = "<group>";
@@ -276,6 +278,15 @@
 				42B6B50811E25A6DA7F3BFA3 /* Pods_GemSelection.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1249A6920D0090A002C3BE6 /* Astrology */ = {
+			isa = PBXGroup;
+			children = (
+				F14FF34720CEDE7D001A8C7A /* AstrologyViewController.swift */,
+				F1249A6A20D00936002C3BE6 /* AstrologyMenuTableViewController.swift */,
+			);
+			path = Astrology;
 			sourceTree = "<group>";
 		};
 		F1548F4B20CAA0A70082602D /* Model */ = {
@@ -468,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00176EC920139484009E92B8 /* SideBarRudraksh.swift in Sources */,
+				F1249A6B20D00936002C3BE6 /* AstrologyMenuTableViewController.swift in Sources */,
 				0084AD40200FB7F600A663CF /* HomeStonesDetailed.swift in Sources */,
 				002A93C3200D356400688259 /* Birthstones.swift in Sources */,
 				00D998112007D65500D10D3F /* Perfumes.swift in Sources */,
