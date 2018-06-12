@@ -28,10 +28,11 @@ class AstrologyViewController: UIViewController {
         super.viewDidLoad()
         
         matchButton.addTarget(self, action: #selector(handleMatch), for: .touchUpInside)
-        
-        matchMaking = ["Western Horoscope", "Western Chart", "Daily Tropical Transit", "Daily Tropical Transit", "Daily Tropical Transit", "Solar Return", "Solar Return Planet", "Solar Return House", "Lunar Metrics", "Composite Horoscope", "Synastry Horoscope", "Personality Report", "Romantic Personality Report", "Personalized Planet Prediction", "Life Forecast Report", "Romantic Forecast Report", "Friendship Report", "Karma Destiny Report", "love Compatibilty Report", "Romantic Forecast Couple Report", "Zodiac Compatibilty", "Sun Sign Compatibility"]
+        westernAstro = ["Western Horoscope", "Western Chart", "Daily Tropical Transit", "Weekly Tropical Transit", "Monthly Tropical Transit", "Solar Return", "Solar Return Planet", "Solar Return House", "Lunar Metrics", "Composite Horoscope", "Synastry Horoscope", "Personality Report", "Romantic Personality Report", "Personalized Planet Prediction", "Life Forecast Report", "Romantic Forecast Report", "Friendship Report", "Karma Destiny Report", "love Compatibilty Report", "Romantic Forecast Couple Report", "Zodiac Compatibilty", "Sun Sign Compatibility"]
 
         matchMaking = ["Match Birth Deatils", "Match Ashtakoot Points", "Match Vedha", "Match Astro Details", "Match Planet Details", "Match Manglik Report", "Match Making Report", "Match Simple Report", "Match Making Deatiled Report", "Match Dashakoot Points", "Match Percentage", "Partner Report", "Custom Match Profiles", "Papasamyam Details"]
+        
+        indianAstro = ["General House Report", "General Ascendant Report", "General Planet Nature Report", "General Moon BioRythm Report", "Moon Horoscope Report Chart", "Kal Sarpa Details", "Basic Astrology Report", "Basic Astrology Details", "Basic Astrology Planets", "Madhya Bhav", "Ayanmsha", "Major Char Dasha", "Curren Char Dasha", "Sub Char Dasha", "Sub Sub Char Dasha", "Gemstone Suggestion", "Basic Panchang", "Planet Panchang", "Yogini Dasha", "Numerology Report", "Numerology Favourable Time", "Numerology Place Vastu", "Numerology Daily Prediction"]
         
         // Do any additional setup after loading the view.
     }
